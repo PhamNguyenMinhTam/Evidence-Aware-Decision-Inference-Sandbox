@@ -44,7 +44,7 @@ Mỗi worker chạy độc lập trên cùng các batch. Controller chạy lần
 ## Research Progress & GitHub Issues
 
 <!-- eadis-master-link -->
-- [GitHub Issues](https://github.com/PhamNguyenMinhTam/LLM-AGENTS-EXPERIMENTS/issues) · [Milestones](https://github.com/PhamNguyenMinhTam/LLM-AGENTS-EXPERIMENTS/milestones) · [Issue Index](docs/issue_index.md)
+- [GitHub Issues](https://github.com/PhamNguyenMinhTam/Evidence-Aware-Decision-Inference-Sandbox/issues) · [Milestones](https://github.com/PhamNguyenMinhTam/Evidence-Aware-Decision-Inference-Sandbox/milestones) · [Issue Index](docs/issue_index.md)
 - [Master Research & Development Checklist](docs/experiment_checklist.md) · [Learning Roadmap](docs/eadis/learning_roadmap.md) · [Research Log](docs/eadis/research_log.md) · [ETVM-PI Transfer Map](docs/eadis/research_log.md#bản-đồ-chuyển-giao)
 
 1. Mở Master Tracking Issue hoặc Issue Index và chọn phase theo thứ tự completion gates. Dùng milestone để xem các phase liên quan và lọc labels theo `phase: P00`, `experiment: M01` hoặc `status: review`.

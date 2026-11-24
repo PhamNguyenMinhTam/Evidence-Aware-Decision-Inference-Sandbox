@@ -1,5 +1,5 @@
 # Each issue maps to a heading in the master checklist.
-repository: PhamNguyenMinhTam/LLM-AGENTS-EXPERIMENTS
+repository: PhamNguyenMinhTam/Evidence-Aware-Decision-Inference-Sandbox
 documentation_ref: research/eadis-issue-management
 checklist: docs/experiment_checklist.md
 labels:
