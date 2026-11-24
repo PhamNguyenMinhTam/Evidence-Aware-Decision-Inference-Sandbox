@@ -40,3 +40,15 @@ Mỗi worker chạy độc lập trên cùng các batch. Controller chạy lần
 - [Dữ liệu tổng hợp và hợp đồng nhãn](datasets/eadis/README.md)
 - [Nhật ký nghiên cứu và bản đồ chuyển giao ETVM-PI](docs/eadis/research_log.md)
 - [Ma trận E01–E12](experiments/README.md) và [hướng dẫn runner trước EADIS](docs/archive/README_before_eadis.md)
+
+## Research Progress & GitHub Issues
+
+<!-- eadis-master-link -->
+- [GitHub Issues](https://github.com/PhamNguyenMinhTam/LLM-AGENTS-EXPERIMENTS/issues) · [Milestones](https://github.com/PhamNguyenMinhTam/LLM-AGENTS-EXPERIMENTS/milestones) · [Issue Index](docs/issue_index.md)
+- [Master Research & Development Checklist](docs/experiment_checklist.md) · [Learning Roadmap](docs/eadis/learning_roadmap.md) · [Research Log](docs/eadis/research_log.md) · [ETVM-PI Transfer Map](docs/eadis/research_log.md#bản-đồ-chuyển-giao)
+
+1. Mở Master Tracking Issue hoặc Issue Index và chọn phase theo thứ tự completion gates. Dùng milestone để xem các phase liên quan và lọc labels theo `phase: P00`, `experiment: M01` hoặc `status: review`.
+2. Mở Detailed Task Issue từ phase tương ứng. Đánh dấu checklist sau khi tự xác minh kiến thức hoặc kết quả. GitHub Issues giữ trạng thái chính, còn Markdown checklist trong repo cung cấp nội dung tham chiếu.
+3. Ghi quan sát và diễn giải trong Research Log. Đính commit, run ID, phiên bản dữ liệu, research notes và kết quả xác minh trong Completion Evidence. Chuyển phase sau khi người thực hiện xác nhận completion gate. Duy trì Continuous Issues theo tuần và ưu tiên backlog tùy câu hỏi nghiên cứu.
+
+Chạy `python scripts/setup_research_issues.py --dry-run` để kiểm tra manifest và checklist tại local. Với GitHub CLI đã đăng nhập bằng tài khoản có quyền ghi repo, dùng `--apply` để tạo đối tượng còn thiếu và `--verify` để đối chiếu dữ liệu thực tế. Nếu bị ngắt, chạy lại `--apply` sau khi xử lý thông báo lỗi. Script nhận diện issue bằng task ID trong HTML comment và báo xung đột khi phần liên kết đã bị sửa.
