@@ -4,7 +4,7 @@
 
 *Môi trường thực nghiệm suy luận quyết định dựa trên bằng chứng, quan hệ thời gian và thông tin không đầy đủ.*
 
-EADIS là mini project tiền nghiên cứu chuẩn bị cho ETVM-PI, kế thừa hướng Autobiography-based Decision Twin. Repo GitHub giữ tên `LLM-AGENTS-EXPERIMENTS`. EADIS là phần mềm khoa học phục vụ học tập và thực nghiệm tái lập. Kết quả từ các fixture tổng hợp dùng để kiểm tra pipeline và thiết kế thí nghiệm tiếp theo.
+EADIS là mini project tiền nghiên cứu chuẩn bị cho ETVM-PI, kế thừa hướng Autobiography-based Decision Twin. EADIS là phần mềm khoa học phục vụ học tập và thực nghiệm tái lập. Kết quả từ các fixture tổng hợp dùng để kiểm tra pipeline và thiết kế thí nghiệm tiếp theo.
 
 **UNDERSTANDING > MEMORIZATION**
 
@@ -43,7 +43,7 @@ Mỗi worker chạy độc lập trên cùng các batch. Controller chạy lần
 
 ## Research Progress & GitHub Issues
 
-<!-- eadis-master-link -->
+- [Master Tracking Issue](https://github.com/PhamNguyenMinhTam/Evidence-Aware-Decision-Inference-Sandbox/issues/2)
 - [GitHub Issues](https://github.com/PhamNguyenMinhTam/Evidence-Aware-Decision-Inference-Sandbox/issues) · [Milestones](https://github.com/PhamNguyenMinhTam/Evidence-Aware-Decision-Inference-Sandbox/milestones) · [Issue Index](docs/issue_index.md)
 - [Master Research & Development Checklist](docs/experiment_checklist.md) · [Learning Roadmap](docs/eadis/learning_roadmap.md) · [Research Log](docs/eadis/research_log.md) · [ETVM-PI Transfer Map](docs/eadis/research_log.md#bản-đồ-chuyển-giao)
 
