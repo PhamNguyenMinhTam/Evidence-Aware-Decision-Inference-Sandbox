@@ -41,7 +41,7 @@ class OllamaAgent(BaseAgent):
         if model["details"]["quantization_level"] != self.config.quantization:
             raise ValueError("Quantization mismatch")
 
-    def respond(self, prompt):
+    def respond(self, prompt, *, output_format=None):
         payload = {
             "model": self.config.model_name,
             "stream": False,
@@ -51,6 +51,8 @@ class OllamaAgent(BaseAgent):
             ],
             "options": self.config.inference,
         }
+        if output_format is not None:
+            payload["format"] = output_format
         return parse_response(self.transport(
             self.config.endpoint + "/api/chat", payload, timeout=self.config.timeout
         ))

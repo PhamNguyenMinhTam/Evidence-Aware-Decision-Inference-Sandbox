@@ -11,6 +11,7 @@ dist/
 results/raw/*
 results/summary/*
 results/figures/*
+results/eadis/*
 experiments/*/results/*
 !.gitkeep
 *.pem

@@ -1,0 +1,12 @@
+agent_id: laptop-a
+hardware_id: laptop-a
+endpoint: http://localhost:11434
+model_name: replace-with-installed-model-tag
+model_digest: replace-with-installed-model-digest
+quantization: replace-with-installed-quantization
+prompt_version: eadis-extraction-v1
+system_prompt: Return only the requested JSON object.
+inference:
+  temperature: 0
+  seed: 42
+timeout: 120

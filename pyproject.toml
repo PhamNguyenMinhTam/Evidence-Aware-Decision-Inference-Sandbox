@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "llm-agent-experiments"
 version = "0.1.0"
-description = "Experimental evaluation of independent LLM agents"
+description = "EADIS, an experimental sandbox for evidence-aware decision inference"
 requires-python = ">=3.11"
 dependencies = ["PyYAML==6.0.3", "pydantic==2.12.3", "python-dotenv==1.2.1"]
 
@@ -14,10 +14,11 @@ dev = ["pytest==9.0.1", "ruff==0.14.4"]
 
 [project.scripts]
 llm-experiment = "scripts.run_experiment:main"
+eadis = "eadis.cli:main"
 
 [tool.setuptools.packages.find]
-include = ["agents*", "controller*", "evaluation*", "scripts*"]
+include = ["eadis*", "agents*", "controller*", "evaluation*", "scripts*", "mini_mos*", "apps*"]
 
 [tool.pytest.ini_options]
-testpaths = ["tests"]
+testpaths = ["tests", "apps/coding_agent/tests", "apps/evidence_agent/tests"]
 pythonpath = ["."]
